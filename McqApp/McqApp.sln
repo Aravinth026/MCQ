@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McqApp", "McqApp\McqApp.csproj", "{372D0482-F2B5-437F-BB22-9B1B5DDEC095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{372D0482-F2B5-437F-BB22-9B1B5DDEC095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372D0482-F2B5-437F-BB22-9B1B5DDEC095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372D0482-F2B5-437F-BB22-9B1B5DDEC095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372D0482-F2B5-437F-BB22-9B1B5DDEC095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75576F82-384A-44B3-83BA-551247A2608B}
+	EndGlobalSection
+EndGlobal

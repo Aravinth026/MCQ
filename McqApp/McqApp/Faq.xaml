@@ -1,0 +1,198 @@
+﻿<Window x:Class="McqApp.Faq"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:McqApp"
+        mc:Ignorable="d"
+        Title="Faq" Height="850" Width="800" FontSize="10" >
+    <StackPanel Background="Beige">
+        <Label x:Name="lblfaq" Content="Welcome To FAQ" FontSize="25" FontFamily="Castellar" Width="270" Foreground="Navy"></Label>
+        <TextBlock x:Name="tbluser" Text="Hi User..." FontSize="21" FontFamily="Harrington" FontWeight="DemiBold" Margin="20,0,0,0" Foreground="Blue"></TextBlock>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+               <Label x:Name="lblqn1" Content="1. Which one of the following river flows between Vindhyan and Satpura ranges ?" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk1" Content="0" Margin="101,5,0,0" Visibility="Hidden"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chknar" Checked="First_Checked" Tag="1" Content="Narmada" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkmah" Checked="First_Checked" Tag="0" Content="Mahanadi" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkson" Checked="First_Checked" Tag="0" Content="Son" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chknetra" Checked="First_Checked" Tag="0" Content="Netravati" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn2" Content="2. The Central Rice Research Station is situated in?" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk2" Content="0" Margin="323.5,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkchen" Checked="Second_Checked" Tag="0" Content="Chennai" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkcut" Checked="Second_Checked" Tag="1" Content="Cuttack" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkbgl" Checked="Second_Checked" Tag="0" Content="Bangalore" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkqui" Checked="Second_Checked" Tag="0" Content="Quilon" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn3" Content="3. The country that has the highest in Barley Production?" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk3" Content="0" Margin="275,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkchi" Checked="Third_Checked" Content="China" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkind" Checked="Third_Checked" Content="India" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkrus" Checked="Third_Checked" Content="Russia" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkfran" Checked="Third_Checked" Content="France" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn4" Content="4. Tsunamis are not caused by" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk4" Content="0" Margin="465.5,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkhur" Checked="Fourth_Checked" Content="Hurricanes" Tag="1" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkeqk" Checked="Fourth_Checked" Content="Earthquakes" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chklnd" Checked="Fourth_Checked" Content="Undersea landslides" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkvol" Checked="Fourth_Checked" Content="Volcanic eruptions" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn5" Content="5. The hottest planet in the solar system?" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk5" Content="0" Margin="387,0,0,0" ></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkmer" Checked="Fifth_Checked" Content="Mercury" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkven" Checked="Fifth_Checked" Content="Venus" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkmars" Checked="Fifth_Checked" Content="Mars" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkjup" Checked="Fifth_Checked" Content="Jupiter" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn6" Content="6. Where was the electricity supply first introduced in India –" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk6" Content="0" Margin="248,0,0,0"></Label>  
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkmum" Checked="Sixth_Checked" Content="Mumbai" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkdeh" Checked="Sixth_Checked" Content="Dehradun" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkdar" Checked="Sixth_Checked" Content="Darjeeling" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkchn" Checked="Sixth_Checked" Content="Chennai" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn7" Content="7. The metal whose salts are sensitive to light is?" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk7" Content="0" Margin="335.5,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkzc" Checked="Seventh_Checked" Content="Zinc" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chksil" Checked="Seventh_Checked" Content="Silver" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkcu" Checked="Seventh_Checked" Content="Copper" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkal" Checked="Seventh_Checked" Content="Aluminum" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn8" Content="8. Which peninsular river is least seasonal in flow?" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk8" Content="0" Margin="324,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chknarm" Checked="Eighth_Checked" Content="Narmada" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkkri" Checked="Eighth_Checked" Content="Krishna" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkgod" Checked="Eighth_Checked" Content="Godavari" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkcav" Checked="Eighth_Checked" Content="Cauvery" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn9" Content="9. Hitler party which came into power in 1933 is known as" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk9" Content="0" Margin="267.5,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkkla" Checked="Ninth_Checked" Content="Ku-Klux-Klan" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkdem" Checked="Ninth_Checked" Content="Democratic Party" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chklabr" Checked="Ninth_Checked" Content="Labour Party" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chknaz" Checked="Ninth_Checked" Content="Nazi Party" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn10" Content="10. Where can Coral reefs be found in India?" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk10" Content="0" Margin="364,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkcst" Checked="Tenth_Checked" Content="The Malabar Coast" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkrmd" Checked="Tenth_Checked" Content="Rameshwaram" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chktvd" Checked="Tenth_Checked" Content="Trivandrum" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkmpm" Checked="Tenth_Checked" Content="Mahabalipuram" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn11" Content="11. Golf player Vijay Singh belongs to which country?" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk11" Content="0" Margin="299,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkin" Checked="Eleven_Checked" Content="India" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkfij" Checked="Eleven_Checked" Content="Fiji" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkuk" Checked="Eleven_Checked" Content="UK" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkusa" Checked="Eleven_Checked" Content="USA" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn12" Content="12. Epsom (England) is the place associated with" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk12" Content="0" Margin="335.5,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chksht" Checked="Twelve_Checked" Content="Shooting" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkhrc" Checked="Twelve_Checked" Content="Horse racing" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chkpol" Checked="Twelve_Checked" Content="Polo" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chksno" Checked="Twelve_Checked" Content="Snooker" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+        </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn13" Content="13. Each year World Red Cross and Red Crescent Day is celebrated on " FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk13" Content="0" Margin="186.5,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkjet" Checked="Thirteen_Checked" Content="June 8" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkjtn" Checked="Thirteen_Checked" Content="June 18" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkmet" Checked="Thirteen_Checked" Content="May 8" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkmtn" Checked="Thirteen_Checked" Content="May 18" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+           <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn14" Content="14. The biggest part of the brain is" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk14" Content="0" Margin="432,0,0,0"></Label>
+           </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkspc" Checked="Fourteen_Checked" Content="Spinal cord" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkcbl" Checked="Fourteen_Checked" Content="Cerebellum" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkcbr" Checked="Fourteen_Checked" Content="Cerebrum" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkstm" Checked="Fourteen_Checked" Content="Brain Stem" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold"></CheckBox>
+            </StackPanel>
+          </StackPanel>
+        <StackPanel Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblqn15" Content="15. The unit of electrical resistance of a conductor is—" FontSize="15" FontWeight="Bold" FontFamily="Amasis MT Pro Black"></Label>
+                <Label x:Name="lblmk15" Content="0" Margin="294.5,0,0,0"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkf" Checked="Fifteen_Checked" Content="farad" Tag="0" Margin="30,0,5,0" FontWeight="SemiBold"></CheckBox>
+                <CheckBox x:Name="chkv" Checked="Fifteen_Checked" Content="volt" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chka" Checked="Fifteen_Checked" Content="ampere" Tag="0" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+                <CheckBox x:Name="chko" Checked="Fifteen_Checked" Content="ohm" Tag="1" Margin="0,0,5,0" FontWeight="SemiBold" ></CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="300,15,0,0">
+            <Button x:Name="btnresult" Click="btnresult_Click" Content="Validate" Background="Green" Foreground="Azure" FontWeight="DemiBold" FontSize="13" Width="70" Height="35" BorderBrush="Chocolate" BorderThickness="4"></Button>
+            <Label x:Name="lblresult" Content="0" Margin="355,0,0,0" FontSize="14"></Label>
+        </StackPanel>
+    </StackPanel>
+</Window>
